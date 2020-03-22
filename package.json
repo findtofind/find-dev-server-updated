@@ -1,6 +1,9 @@
 {
   "name": "findtofind-server-dev",
   "version": "1.0.0",
+  "engines": { 
+    "node": "12.11.1" 
+  },
   "main": "index.js",
   "repository": "https://github.com/findtofind/findtofind-server-dev.git",
   "author": "Hakan Genc <gnchakan1@gmail.com>",

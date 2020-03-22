@@ -7,7 +7,7 @@ import postRoutes from './routes/post';
 const app = express();
 
 //SETTINGS
-app.set('port', 4000);
+app.set('port', process.env.PORT);
 
 // MIDDLEWARES
 app.use(morgan('dev'));
